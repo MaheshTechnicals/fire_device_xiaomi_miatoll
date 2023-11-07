@@ -1,5 +1,5 @@
 # device/xiaomi
-git clone -b tiramisu+ https://github.com/Xiaomi-SD720G-Devices/android_device_xiaomi_sm6250-common.git device/xiaomi/sm6250-common --depth=1
+git clone -b tiramisu+FBEv2 https://github.com/Xiaomi-SD720G-Devices/android_device_xiaomi_sm6250-common.git device/xiaomi/sm6250-common --depth=1
 
 # vendor/xiaomi
 git clone -b tiramisu+ https://github.com/Xiaomi-SD720G-Devices/android_vendor_xiaomi_miatoll.git vendor/xiaomi/miatoll --depth=1
