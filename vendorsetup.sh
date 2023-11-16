@@ -8,7 +8,7 @@ git clone -b miuicam https://gitlab.com/userariii/vendor-xiaomi-miuicamera.git v
 git clone -b main https://github.com/userariii/hardware_dolby.git hardware/dolby --depth=1
 
 # clang
-git clone -b main https://gitlab.com/Panchajanya1999/azure-clang prebuilts/clang/host/linux-x86/clang-14.0 --depth=1
+git clone -b clang-r498229b https://github.com/Xiaomi-SD720G-Devices/AOSP-clang.git prebuilts/clang/host/linux-x86/clang-r498229b --depth=1
 
 # kernel/xiaomi
 git clone -b RedCherry+ https://github.com/Xiaomi-SD720G-Devices/android_kernel_xiaomi_sm6250.git kernel/xiaomi/sm6250 --depth=1

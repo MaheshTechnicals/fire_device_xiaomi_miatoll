@@ -24,9 +24,9 @@
     "remote": "github"
   },
   {
-    "repository": "Panchajanya1999/azure-clang",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-14.0",
-    "branch": "main",
+    "repository": "AOSP-clang/tree/clang-r498229b",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r498229b",
+    "branch": "clang-r498229b",
     "remote": "github"
   },
   {
