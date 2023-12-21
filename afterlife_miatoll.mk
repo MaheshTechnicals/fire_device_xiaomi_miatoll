@@ -5,19 +5,32 @@
 #
 
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
-$(call inherit-product, vendor/syberia/common.mk)
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
-PRODUCT_NAME := syberia_miatoll
+PRODUCT_NAME := afterlife_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Miatoll
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-WITH_GMS := true
-TARGET_GAPPS_ARCH := arm64
 
 IS_PHONE := true
+
+# AfterLife flags
+AFTERLIFE_MAINTAINER := MaheshTechnicals
+
+# Offline Charging
+USE_PIXEL_CHARGING := true
+
+# disable/enable blur support, default is false
+TARGET_SUPPORTS_BLUR := true
+
+#Gapps
+AFTERLIFE_GAPPS := true
+
+#Touch Gesture
+TARGET_SUPPORTS_TOUCHGESTURES := true
 
 # AOSP Stuff
 TARGET_SUPPORTS_GOOGLE_RECORDER := true

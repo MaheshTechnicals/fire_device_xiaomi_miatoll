@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_miatoll.mk
+    $(LOCAL_DIR)/afterlife_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_miatoll-user \
-    syberia_miatoll-userdebug \
-    syberia_miatoll-eng
+    afterlife_miatoll-user \
+    afterlife_miatoll-userdebug \
+    afterlife_miatoll-eng
