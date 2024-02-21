@@ -14,4 +14,4 @@ git clone -b 13.0 https://github.com/userariii/android_packages_apps_ViPER4Andro
 git clone -b clang-r498229b https://github.com/Xiaomi-SD720G-Devices/AOSP-clang.git prebuilts/clang/host/linux-x86/clang-r498229b --depth=1
 
 # kernel/xiaomi
-git clone -b kinesis https://github.com/clarencelol/kernel_xiaomi_sm6250.git kernel/xiaomi/sm6250 --depth=1
+git clone https://github.com/clarencelol/kernel_xiaomi_sm6250.git kernel/xiaomi/sm6250 --depth=1
